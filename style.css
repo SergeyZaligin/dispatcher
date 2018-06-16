@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+.col{
+	width: 50%;
+}
+
+.right{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	color: red;
+}
+
+ul > li{
+	padding: 5px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	list-style: none;
+	transition: 0.2s all;
+}
+
+ul > li:hover{
+	background: #ccc;
+}
