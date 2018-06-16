@@ -4,6 +4,17 @@
 	box-sizing: border-box;
 }
 
+body{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
 .app{
 	display: -webkit-flex;
 	display: -moz-flex;
